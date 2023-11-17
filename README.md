@@ -1,20 +1,14 @@
-public release binary
+public binary release
+## cls
 
-
-## cls-linux
-
-x86_64 架构
-
+x86-64
 ```bash
-wget https://ghproxy.com/https://github.com/iamwwc/pub-release/releases/download/cls-rs/cls-x86_64.gz -O cls.gz
+wget https://github.com/taikulawo/pub-release/releases/download/cls-rs-x86-64/cls.gz -O cls.gz
 gzip -d ./cls.gz
-chmod u+x ./cls
 ```
-
-arm64 架构
+arm64
 
 ```bash
-wget https://ghproxy.com/https://github.com/iamwwc/pub-release/releases/download/cls-rs/cls-arm64.gz -O cls.gz
+wget https://github.com/taikulawo/pub-release/releases/download/cls-rs-arm64/cls.gz -O cls.gz
 gzip -d ./cls.gz
-chmod u+x ./cls
 ```
